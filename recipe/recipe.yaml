@@ -13,7 +13,7 @@ source:
   sha256: e6ff05c228a5e8f543581259f0e7ea52003aab206e053697f34db40db6d4e4ac
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -40,9 +40,12 @@ tests:
 
 about:
   summary: An open-source tool for collecting railway codes used in different UK rail industry systems.
+  description: |
+    PyRCS is an open-source Python package that simplifies the collection and management of railway codes used across different systems in the UK rail industry. It provides a practical toolkit for researchers, practitioners and frequent users of the Railway Codes website who work extensively with railway codes in the UK. PyRCS enables efficient access, retrieval and manipulation of railway code data, enhancing productivity and effectiveness in working with these codes.
   license: MIT
   license_file: LICENSE
   homepage: https://github.com/mikeqfu/pyrcs
+  repository: https://github.com/mikeqfu/pyrcs
   documentation: https://pyrcs.readthedocs.io/en/latest/
 
 extra:
