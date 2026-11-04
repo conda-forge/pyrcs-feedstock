@@ -24,10 +24,9 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - pyhelpers >=2.5.0,<2.6.dev0
+    - pyhelpers >=2.5.3,<2.6.dev0
     - beautifulsoup4
-    - requests
-    - pandas
+    - curl-cffi
 
 tests:
   - python:
